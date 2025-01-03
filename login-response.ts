@@ -16,21 +16,14 @@
  * 
  *
  * @export
- * @interface InlineResponse403
+ * @interface LoginResponse
  */
-export interface InlineResponse403 {
+export interface LoginResponse {
 
     /**
      * @type {string}
-     * @memberof InlineResponse403
-     * @example Keine Berechtigung, diese Frage zu löschen.
+     * @memberof LoginResponse
+     * @example eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
      */
-    error?: string;
-
-    /**
-     * @type {number}
-     * @memberof InlineResponse403
-     * @example 403
-     */
-    code?: number;
+    token?: string;
 }

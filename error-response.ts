@@ -16,21 +16,23 @@
  * 
  *
  * @export
- * @interface InlineResponse400
+ * @interface ErrorResponse
  */
-export interface InlineResponse400 {
+export interface ErrorResponse {
 
     /**
      * @type {string}
-     * @memberof InlineResponse400
-     * @example Die übermittelten Daten sind fehlerhaft
+     * @memberof ErrorResponse
+     * @example User mit der ID 12345 nicht gefunden!
      */
     error?: string;
 
     /**
+     * Errorstatuscode
+     *
      * @type {number}
-     * @memberof InlineResponse400
-     * @example 400
+     * @memberof ErrorResponse
+     * @example 404
      */
     code?: number;
 }

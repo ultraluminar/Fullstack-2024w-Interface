@@ -12,18 +12,12 @@
  * Do not edit the class manually.
  */
 
+import { Question } from './question';
  /**
  * 
  *
  * @export
- * @interface InlineResponse200
+ * @interface QuestionArray
  */
-export interface InlineResponse200 {
-
-    /**
-     * @type {string}
-     * @memberof InlineResponse200
-     * @example eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
-     */
-    token?: string;
+export interface QuestionArray extends Array<Question> {
 }

@@ -12,25 +12,12 @@
  * Do not edit the class manually.
  */
 
+import { Answer } from './answer';
  /**
  * 
  *
  * @export
- * @interface InlineResponse401
+ * @interface AnswerArray
  */
-export interface InlineResponse401 {
-
-    /**
-     * @type {string}
-     * @memberof InlineResponse401
-     * @example E-Mail oder Passwort ungültig
-     */
-    error?: string;
-
-    /**
-     * @type {number}
-     * @memberof InlineResponse401
-     * @example 401
-     */
-    code?: number;
+export interface AnswerArray extends Array<Answer> {
 }
