@@ -23,10 +23,10 @@ export interface VoteResponse {
     /**
      * Die ID des bewerteten Elements
      *
-     * @type {string}
+     * @type {number}
      * @memberof VoteResponse
      */
-    id?: string;
+    id?: number;
 
     /**
      * Die neue Anzahl der Stimmen

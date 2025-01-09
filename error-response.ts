@@ -23,7 +23,7 @@ export interface ErrorResponse {
     /**
      * @type {string}
      * @memberof ErrorResponse
-     * @example User mit der ID 12345 nicht gefunden!
+     * @example Eine Beispiel für eine Fehlermessage
      */
     error?: string;
 

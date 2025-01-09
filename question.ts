@@ -21,11 +21,11 @@
 export interface Question {
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof Question
      * @example 12345
      */
-    id?: string;
+    id?: number;
 
     /**
      * @type {string}
@@ -56,11 +56,11 @@ export interface Question {
     updatedAt?: Date;
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof Question
      * @example 12345
      */
-    userId?: string;
+    userId?: number;
 
     /**
      * Anzahl der Stimmen

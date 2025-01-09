@@ -21,11 +21,11 @@
 export interface User {
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof User
      * @example 12345
      */
-    id?: string;
+    id?: number;
 
     /**
      * @type {string}

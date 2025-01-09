@@ -21,18 +21,18 @@
 export interface Answer {
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof Answer
      * @example 12345
      */
-    id?: string;
+    id?: number;
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof Answer
      * @example 12345
      */
-    questionId?: string;
+    questionId?: number;
 
     /**
      * @type {string}
@@ -56,11 +56,11 @@ export interface Answer {
     updatedAt?: Date;
 
     /**
-     * @type {string}
+     * @type {number}
      * @memberof Answer
      * @example 12345
      */
-    userId?: string;
+    userId?: number;
 
     /**
      * Anzahl der Stimmen
