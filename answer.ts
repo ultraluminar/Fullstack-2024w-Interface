@@ -61,13 +61,4 @@ export interface Answer {
      * @example 12345
      */
     userId?: number;
-
-    /**
-     * Anzahl der Stimmen
-     *
-     * @type {number}
-     * @memberof Answer
-     * @example 420
-     */
-    votes?: number;
 }

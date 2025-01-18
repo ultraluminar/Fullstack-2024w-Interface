@@ -11,4 +11,3 @@ export * from './question-array';
 export * from './update-answer';
 export * from './update-question';
 export * from './user';
-export * from './vote-response';
