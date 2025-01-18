@@ -28,6 +28,13 @@ export interface User {
     id?: number;
 
     /**
+     * @type {boolean}
+     * @memberof User
+     * @example false
+     */
+    isAdmin?: boolean;
+
+    /**
      * @type {string}
      * @memberof User
      * @example MaxMustmann123#
